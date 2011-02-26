@@ -1,0 +1,195 @@
+body {
+	text-align: center;
+	font-family: verdana,arial,sans-serif;
+	background-color: #00aad4;
+	margin: 0px;
+	padding: 0px;
+}
+
+a, a:visited {
+	color: white;
+}
+
+#wrapper {
+	margin: auto;
+	width: 960px;
+	height: 840px;
+	text-align: left;
+	padding-top: 0px;
+	background-color: black;
+}
+
+.row {
+	float: left;
+	clear: both;
+	padding-right: 15px;
+}
+
+#top_row {
+	padding-left: 0px;
+}
+
+#row {
+	margin-top: 20px;
+	padding-left: 15px;
+}
+
+#about {
+	float: left;
+	width: 580px;
+	border: none;
+	height: 370px;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	background-color: black;
+	color: white;
+}
+
+#across_net {
+	float: left;
+	height: 290px;
+	width: 298px;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 1px solid #006680;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	background-color: #006680;
+	padding-top: 10px;
+}
+
+#across_net .section_body {
+	height: 220px;
+	background-color: white;
+}
+
+#across_net .section_head {
+	margin-top: -5px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+#across_net ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;	
+}
+
+#across_net ul li {
+	line-height: 1.5em;
+}
+
+#across_net a, #across_net a:visited {
+	color: #006680;
+	text-decoration: none;
+}
+
+#across_net a:hover {
+	text-decoration: underline;
+}
+
+#projects {
+	float: left;
+	width: 580px;
+	border: none;
+}
+
+#twitter {
+	float: left;
+	width: 320px;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+.section {
+	height: 300px;
+}
+
+#projects_title {
+	font-weight: bold;
+	color: white;
+	margin-left: 15px;
+}
+
+#projects_detail {
+	margin-top: 15px;
+}
+
+#projects_detail .project {
+	float: left;
+	width: 190px;
+	height: 140px;
+	text-align: center;
+}
+
+.project_screen {
+	width: 200px;
+}
+
+.project_label {
+	margin-top: 3px;
+	font-size: 10pt;
+}
+
+.project_label a {
+	text-decoration: none;
+}
+
+#main_image {
+	float: left;
+	width: 250px;
+	margin-top: 30px;
+}
+
+#about_text {
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 300px;
+}
+
+#page_title {
+	font-weight: bold;
+	color: white;
+}
+
+#projects_footer {
+	float: right;
+	clear: both;
+	margin-top: 5px;
+	font-size: 10pt;
+	margin-right: 15px;
+}
+
+.about_content {
+	font-size: 10pt;
+	color: white;
+}
+
+.about_content a, .about_content a:visited {
+	color: #93d6f5;
+}
+
+.section_body {
+	padding: 10px;
+	background-color: black;
+}
+
+.section_head {
+	font-weight: bold;
+	background-color: #006680;
+	color: white;
+	padding: 3px;
+}
+
+#twitter {
+	border: none;
+}
+
+.twtr-widget .twtr-tweet-wrap {
+	background-color: white;
+}
+
+#mobile_title {
+	display: none;
+}

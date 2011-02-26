@@ -1,0 +1,37 @@
+<div id="top_row" class="row">
+	<div id="about" class="section">
+		<div id="main_image">
+			<%= image_tag 'tim_new2.png' %>
+		</div>
+		<div id="about_text">
+			<div id="page_title">A Little Bit About Me</div>
+			<div id="mobile_title">TimothyFisher.com</div>
+			<div class="about_content">
+				This is the home page for Timothy Fisher.  I am a software architect and developer living
+				in the 
+				<a href="http://maps.google.com/places/us/mi/detroit?hl=en">Detroit, Michigan</a> 
+				area.  Currently, I work for <a href="http://www.compuware.com">Compuware</a> in Detroit.
+				<br/><br/>
+				In addition to my work at Compuware, I am also an active open source contributor.  I have
+				started and maintain multiple open source projects and have contributed to others. 
+				My primary development technology interests include JavaScript, Ruby, Rails, front-end 
+				development, web performance, and web architecture. 
+				<br/><br/>
+				I am also the author of two technical books, the 
+				<a href="">Java Phrasebook</a> and the 
+				<a href="">Ruby on Rails Bible</a>.  
+			</div>
+		</div>
+	</div>	
+	<%= render 'find_me' %>
+</div>
+<div id="row" class="row">
+	<%= render 'my_projects' %>	
+	<div id="twitter" class="section">
+		<div class="section_body">
+			<%= render :partial => 'twitter_feed' %>
+		</div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<div style="clear: both;"></div>
